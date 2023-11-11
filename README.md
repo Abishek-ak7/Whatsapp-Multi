@@ -49,19 +49,13 @@ else:
 ```
 If phone numbers are found, they are added to the `input_text` list.
 
-### Step 7: Convert Input List to String
-```python
-input_text_string = ",".join(input_text)
-```
-The `input_text` list is converted to a string with phone numbers separated by commas.
-
-### Step 8: Message Content
+### Step 7: Message Content
 ```python
 message_content = "..."  # (A long string containing the message content)
 ```
 You define the content of the message you want to send.
 
-### Step 9: Sending Messages
+### Step 8: Sending Messages
 ```python
 for phone_number in phone_numbers:
     current_time = datetime.now()
@@ -73,3 +67,6 @@ for phone_number in phone_numbers:
 For each phone number, you format it, get the current time, and use `pywhatkit` to send a WhatsApp message (`kit.sendwhatmsg`) with the specified content and an image (`kit.sendwhats_image`). The script then prints a confirmation message for each sent message.
 
 Note: The code assumes that the `number.txt` file exists and contains phone numbers in the specified format. Also, make sure to handle exceptions appropriately in a production environment.
+
+Use Case Explanation:
+This script is designed for sending event invitations to a list of participants stored in a file. It extracts phone numbers from the file, sends a customized event invitation message along with an image, and provides confirmation messages for each sent invitation. The use case involves efficiently broadcasting details about a cybersecurity symposium event to potential attendees via WhatsApp.
