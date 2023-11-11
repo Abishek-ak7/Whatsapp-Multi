@@ -46,9 +46,9 @@ message_content = (
     "https://instagram.com/revil_cit?igshid=MzRlODBiNWFlZA==\n\n"
     "\n\n"
     "For any queries,\n"
-    "Sanjana B - 7358432833\n"
-    "Thirumalai J - 6380360086\n"
-    "Vedhaashriyaa G- 7904722562\n"
+    "ABCD - 735432XXXX\n"
+    "klmn J - 63803XXXXX\n"
+    "GHI - 79XXXXX562\n"
     "\n"
     "\n"
     "Thank you ")
